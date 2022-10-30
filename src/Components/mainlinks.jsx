@@ -36,7 +36,7 @@ useEffect(()=>{
 
 <div className='logos'> 
 <img  src={slack} alt='slack logo'/>
-<img  src={github} alt='slack logo'/>
+  <img src={github} alt='slack logo' />
 
 </div>
     </main>
