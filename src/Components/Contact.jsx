@@ -89,7 +89,7 @@ function handleLastName(e){
    <input type='checkbox' /> 
    <label>You agree providing data to (name) who might contact you</label>
    </div>
-   <button id='btn_submit'onClick={()=>setBtnClick(true)} >Send Message</button> 
+   <button id='btn__submit'onClick={()=>setBtnClick(true)} >Send Message</button> 
    {submit?<Modal/>:null}
 
 </div>
