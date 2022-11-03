@@ -1,6 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Footer from './footer'
 const ContactPage = () => {
+
+const [contactObj, setContactObj] = useState({})
+
+function handleSubmit(){
+
+}
+
   return (
 
    <>
@@ -12,29 +19,30 @@ const ContactPage = () => {
 <div  className='form-names'>
 <div className='form-items'>
    <label>First Name</label>
-   <input type='text' placeholder='Enter your First Name' className='input-wide' />
+   <input type='text' id='first_name' placeholder='Enter your First Name' className='input-wide' />
 </div>
 <div className='form-items'>
 <label>Last Name</label>
-   <input type='text' placeholder='Enter your Last Name' className='input-wide' />
+   <input id='last_name' type='text' placeholder='Enter your Last Name' className='input-wide' />
 
 </div>
 </div>
 <div className='form-items'>
 <label>Email</label>
-   <input type='text' placeholder='yourname@email.com' className='input-wide' />
+   <input id='email' type='text' placeholder='yourname@email.com' className='input-wide' />
 
 </div>
 <div className='form-items'>
 <label>Message</label>
-<textarea className='input-wide t-area' placeholder='Send me a message and ill reply as soon as possible' > </textarea>
+<textarea  id='message' className='input-wide t-area' placeholder ='Send me a message and ill reply you as soon as possible...'  required pattern=" " autofocus title="Please enter at least 5 characters"  oninvalid="this.setCustomValidity('Please Enter valid email')"
+ oninput="setCustomValidity('')"></textarea>
 </div>
 <div className='send-msg'>
 <div>
-   <input type='radio' /> 
+   <input type='checkbox' /> 
    <label>You agree providing data to (name) who might contact you </label>
    </div>
-   <button>Send Message</button> 
+   <button id='btn_submit'>Send Message</button> 
 </div>
     </form>
     <Footer/>
