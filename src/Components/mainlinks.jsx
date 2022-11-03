@@ -4,6 +4,7 @@ import github  from '../assets/Icon.svg'
 import profile from '../assets/profileimage.jpg'
 import sharemobile from '../assets/_Avatar sharep.svg'
 import sharedesk from '../assets/_Avatar share button.svg'
+import { Link } from 'react-router-dom'
 const Mainlinks = () => {
 const [width,setWidth] = useState(0)
 useEffect(()=>{
@@ -26,12 +27,14 @@ useEffect(()=>{
    </div>
 </div>
 <div className='mainlinks'>
-   <a id='' href='https://twitter.com/aideddev' className='links'   >Twitter Link</a>
+   <a id='' href='https://twitter.com/aideddev' className='links'>Twitter Link </a>
    <a href='https://training.zuri.team/' id='btn__zuri' className='links'> Zuri Team</a>
    <a href='http://books.zuri.team' id='books' className='links' title='Find books about coding and design here'> Zuri Books</a>
    <a id='' href='https://books.zuri.team/python-for-beginners?ref_id=<DisuAde>' className='links'> Python Books</a>
    <a href='https://background.zuri.team' id='pitch' className='links'> Background Check for Coders</a>
-   <a href='https://books.zuri.team/design-rules ' id='book__design' className='links'> Design Books</a>
+   <a href='https://books.zuri.team/design-rules ' id='book__design' className='links'  > Design Books</a>
+  {/* <a href='/contact' id='contact' className='links'>Contact</a> */}
+   <Link to='/contact' className='links'>Contact</Link>
 </div>
 
 <div className='logos'> 

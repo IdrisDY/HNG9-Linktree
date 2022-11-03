@@ -1,7 +1,6 @@
 #root {
-  max-width: 1280px;
   margin: 0;
-  font-family: 'Inter',sans-serif;
+
 }
 .App,main{
   display: flex;
@@ -47,7 +46,7 @@ border-radius: .3em;
 }
 footer{
   display: grid;
-  width: 75%;
+  width: 90%;
   margin: auto;
   grid-template-columns: repeat(3,1fr);
   padding: 1em 0;
@@ -86,6 +85,53 @@ gap: .5em;
 h1{
   margin: 0;
   font-size: 2.2rem;
+}
+.form-names{
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+}
+ .form-items{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.subh2{
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.contact-forms{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  flex-direction: column;
+  width: 50%;
+  gap: 1em;
+padding: 70px 0 30px 0;
+}
+.input-wide{
+  width: 100%;
+  border-radius: .3em;
+  border-style: solid;
+  padding: .4em .5em;
+  border-color:#00000052;
+  font-family: inherit;
+}
+.t-area{
+  height: 70px;
+}
+.send-msg{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.send-msg button{
+  width: 100%;
+  color: white;
+  background-color: #1570EF;
+  text-align: center;
+  padding: .2em .5em;
+  border-radius: .3em;
 }
 @media(max-width:990px){
 footer{
