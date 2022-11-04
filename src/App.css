@@ -97,7 +97,7 @@ h1{
   width: 100%;
 }
 .subh2{
-  font-weight: 400;
+  font-weight: lighter;
   font-size: 1.2rem;
 }
 .contact-forms{
@@ -112,14 +112,15 @@ padding: 70px 0 30px 0;
 .input-wide{
   width: 100%;
   border-radius: .3em;
-  border-style: solid;
-  padding: .4em .5em;
-  border-color:#00000052;
+  padding: .6em .5em;
+  border:1px solid rgba(0, 0, 0, 0.453);
   font-family: inherit;
+  outline: none;
 }
 .input-wide:focus{
   outline: 2px solid #84CAFF;
   transition: ease-in-out ;
+  border: 1.2px solid #84CAFF;
 }
 .t-area{
   height: 70px;
@@ -134,7 +135,7 @@ padding: 70px 0 30px 0;
   color: white;
   background-color: #1570EF;
   text-align: center;
-  padding: .2em .5em;
+  padding: .3em .5em;
   border-radius: .3em;
 }
 @media(max-width:990px){
@@ -143,6 +144,9 @@ footer{
   display: flex;
   gap: 1em;
 width: 90%;
+}
+.subh1{
+  font-size: 1.8rem;
 }
 .profile-info{
   width: 100%;
