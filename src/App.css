@@ -98,7 +98,8 @@ h1{
 }
 .subh2{
   font-weight: lighter;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  color: #475467;
 }
 .contact-forms{
   display: flex;
@@ -112,7 +113,7 @@ padding: 70px 0 30px 0;
 .input-wide{
   width: 100%;
   border-radius: .3em;
-  padding: .6em .5em;
+  padding: 1em .5em;
   border:1px solid rgba(0, 0, 0, 0.453);
   font-family: inherit;
   outline: none;
@@ -123,7 +124,7 @@ padding: 70px 0 30px 0;
   border: 1.2px solid #84CAFF;
 }
 .t-area{
-  height: 70px;
+  height: 80px;
 }
 .send-msg{
   display: flex;
@@ -135,7 +136,7 @@ padding: 70px 0 30px 0;
   color: white;
   background-color: #1570EF;
   text-align: center;
-  padding: .3em .5em;
+  padding: .5em .5em;
   border-radius: .3em;
   
 }
@@ -146,6 +147,10 @@ color: #F83F23;
   background-color: aquamarine;
   width: 100%;
 }
+label{
+  color: #344054;
+  }
+
 @media(max-width:990px){
 footer{
   flex-direction: column;
@@ -155,6 +160,9 @@ width: 90%;
 }
 .subh1{
   font-size: 1.8rem;
+}
+.subh2{
+  font-size: 1.1rem;
 }
 .profile-info{
   width: 100%;
