@@ -33,7 +33,7 @@ useEffect(()=>{
    <a id='' href='https://books.zuri.team/python-for-beginners?ref_id=<DisuAde>' className='links'> Python Books</a>
    <a href='https://background.zuri.team' id='pitch' className='links'> Background Check for Coders</a>
    <a href='https://books.zuri.team/design-rules ' id='book__design' className='links'  > Design Books</a>
-   <Link to='/contact'  id='contact' className='links'>Contact</Link>
+   <Link to='/contact'  id='contact' className='links'>Contact Me</Link>
 </div>
 
 <div className='logos'> 
